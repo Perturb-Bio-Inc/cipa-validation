@@ -1,0 +1,108 @@
+{
+  "notes": "I2 completion. Population P(class|data) from committed I6 (N=10 conductance draws, symmetric log-normal, frozen cuts). 'argmax' = the class the population most members land in; 'conf' = that class's probability. A calibrated signal would show accuracy rising with conf. Reads committed outputs only.",
+  "per_mode": {
+    "correlated": {
+      "mode": "correlated",
+      "n": 28,
+      "accuracy_det": 0.607,
+      "accuracy_pop_argmax": 0.571,
+      "accuracy_argmax": 0.571,
+      "point_biserial_conf_correct": -0.058,
+      "bins": [
+        {
+          "band": "0.0-0.7",
+          "n": 3,
+          "mean_conf": 0.6,
+          "accuracy": 0.667
+        },
+        {
+          "band": "0.9-1.0",
+          "n": 25,
+          "mean_conf": 0.992,
+          "accuracy": 0.56
+        }
+      ],
+      "confident_wrong_drugs": [
+        "disopyramide",
+        "domperidone",
+        "loratadine",
+        "metoprolol",
+        "mexiletine",
+        "nifedipine",
+        "nitrendipine",
+        "ranolazine",
+        "sotalol",
+        "tamoxifen",
+        "verapamil"
+      ],
+      "split_drugs": [
+        "azimilide",
+        "cisapride",
+        "diltiazem"
+      ]
+    },
+    "independent": {
+      "mode": "independent",
+      "n": 28,
+      "accuracy_det": 0.607,
+      "accuracy_pop_argmax": 0.571,
+      "accuracy_argmax": 0.571,
+      "point_biserial_conf_correct": 0.172,
+      "bins": [
+        {
+          "band": "0.0-0.7",
+          "n": 3,
+          "mean_conf": 0.567,
+          "accuracy": 0.333
+        },
+        {
+          "band": "0.7-0.9",
+          "n": 6,
+          "mean_conf": 0.767,
+          "accuracy": 0.5
+        },
+        {
+          "band": "0.9-1.0",
+          "n": 19,
+          "mean_conf": 0.989,
+          "accuracy": 0.632
+        }
+      ],
+      "confident_wrong_drugs": [
+        "loratadine",
+        "metoprolol",
+        "mexiletine",
+        "nifedipine",
+        "nitrendipine",
+        "sotalol",
+        "tamoxifen"
+      ],
+      "split_drugs": [
+        "azimilide",
+        "cisapride",
+        "diltiazem",
+        "disopyramide",
+        "domperidone",
+        "pimozide",
+        "ranolazine",
+        "terfenadine",
+        "verapamil"
+      ]
+    }
+  },
+  "summary": {
+    "verdict": "the population P(class|data) is severely overconfident: not a calibrated posterior",
+    "independent_reliability": {
+      "accuracy_by_confidence_band": [
+        0.333,
+        0.5,
+        0.632
+      ],
+      "point_biserial_conf_vs_correct": 0.172,
+      "accuracy_at_max_confidence_band": 0.632,
+      "mean_conf_at_max_band": 0.989
+    },
+    "why": "Independent mode: accuracy does rise with confidence ([0.333, 0.5, 0.632]), so the signal is weakly monotonic, but at the highest-confidence band (mean conf 0.989) accuracy is only 0.632, far below the probability it claims. The confident-but-wrong set (7 drugs at conf>=0.9) is the systematic low/no-risk overcall (metoprolol, mexiletine, loratadine, tamoxifen, nifedipine, nitrendipine) plus sotalol. The overconfidence concentrates on the structural bias I1/I4 already name.",
+    "det_vs_pop_argmax": "population argmax does not beat the deterministic call (det 0.607 vs pop 0.571), consistent with I6"
+  }
+}

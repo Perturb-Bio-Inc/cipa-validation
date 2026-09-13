@@ -1,0 +1,21 @@
+{
+  "baseline_apd90_ms": 413.31,
+  "n_drugs": 28,
+  "n_paired_points": 112,
+  "spearman_rho": 0.6714,
+  "spearman_rho_beat_only": 0.6246,
+  "direction_agreement": {
+    "match": 82,
+    "measurable": 92,
+    "frac": 0.8913
+  },
+  "collapse_ead_2x2": {
+    "model_collapse & blinova_ead": 6,
+    "model_collapse & blinova_no_ead": 0,
+    "no_model_collapse & blinova_ead": 21,
+    "no_model_collapse & blinova_no_ead": 1
+  },
+  "collapse_specificity_all_match": true,
+  "collapse_sensitivity_frac": 0.2222,
+  "note": "FPD (measured) vs APD90 (model): direction + rank agreement of repolarization prolongation; not waveform equivalence. Model over-prolongs absolute ms."
+}

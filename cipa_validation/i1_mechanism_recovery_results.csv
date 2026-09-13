@@ -1,0 +1,9 @@
+compound,mult,true,full6_profile,sing1,sing_tag,pair1,pair_tag
+dofetilide,1,g_Kr,"g_Kr,g_to",g_Kr,RECOVER,"g_Kr,g_Ks",PARTIAL
+dofetilide,4,g_Kr,"g_Kr,g_to",g_Kr,RECOVER,"g_Kr,g_Ks",PARTIAL
+verapamil,1,"g_CaL,g_Kr","g_CaL,g_Kr",g_K1,MISS,"g_CaL,g_Kr",RECOVER
+verapamil,4,"g_CaL,g_Kr","g_CaL,g_Kr",g_K1,MISS,"g_CaL,g_Kr",RECOVER
+ranolazine,1,g_Kr,g_Kr,g_Kr,RECOVER,"g_Kr,g_Ks",PARTIAL
+ranolazine,4,g_Kr,g_Kr,g_Kr,RECOVER,"g_Kr,g_Ks",PARTIAL
+astemizole,1,-,g_Kr,g_Ks,PARTIAL,"g_Ks,g_to",PARTIAL
+astemizole,4,g_Kr,g_Kr,g_Ks,MISS,"g_Kr,g_Ks",PARTIAL

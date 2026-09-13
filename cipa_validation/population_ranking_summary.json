@@ -1,0 +1,200 @@
+{
+ "seed": 20260906,
+ "sigma": 0.25,
+ "n": 10,
+ "rows": [
+  {
+   "compound": "dofetilide",
+   "mult": 1.0,
+   "truth": [
+    "g_Kr"
+   ],
+   "ref_single": [
+    "g_Kr"
+   ],
+   "ref_pair": [
+    "g_Kr",
+    "g_Ks"
+   ],
+   "n": 10,
+   "stable_single": 10,
+   "stable_pair": 3,
+   "flip_singles": [],
+   "flip_pairs": [
+    "g_Kr,g_CaL",
+    "g_Kr,g_to",
+    "g_Kr,g_to",
+    "g_Kr,g_CaL",
+    "g_Kr,g_CaL",
+    "g_Kr,g_to",
+    "g_Kr,g_CaL"
+   ],
+   "collapsed": 0
+  },
+  {
+   "compound": "dofetilide",
+   "mult": 4.0,
+   "truth": [
+    "g_Kr"
+   ],
+   "ref_single": [
+    "g_Kr"
+   ],
+   "ref_pair": [
+    "g_Kr",
+    "g_Ks"
+   ],
+   "n": 10,
+   "stable_single": 6,
+   "stable_pair": 4,
+   "flip_singles": [],
+   "flip_pairs": [
+    "g_Kr,g_CaL",
+    "g_Kr,g_CaL"
+   ],
+   "collapsed": 4
+  },
+  {
+   "compound": "verapamil",
+   "mult": 1.0,
+   "truth": [
+    "g_CaL",
+    "g_Kr"
+   ],
+   "ref_single": [
+    "g_K1"
+   ],
+   "ref_pair": [
+    "g_Kr",
+    "g_CaL"
+   ],
+   "n": 10,
+   "stable_single": 10,
+   "stable_pair": 8,
+   "flip_singles": [],
+   "flip_pairs": [
+    "g_Na,g_K1",
+    "g_Ks,g_K1"
+   ],
+   "collapsed": 0
+  },
+  {
+   "compound": "verapamil",
+   "mult": 4.0,
+   "truth": [
+    "g_CaL",
+    "g_Kr"
+   ],
+   "ref_single": [
+    "g_K1"
+   ],
+   "ref_pair": [
+    "g_Kr",
+    "g_CaL"
+   ],
+   "n": 10,
+   "stable_single": 5,
+   "stable_pair": 4,
+   "flip_singles": [
+    "g_Na"
+   ],
+   "flip_pairs": [
+    "g_Kr,g_K1",
+    "g_Na,g_K1"
+   ],
+   "collapsed": 4
+  },
+  {
+   "compound": "ranolazine",
+   "mult": 1.0,
+   "truth": [
+    "g_Kr"
+   ],
+   "ref_single": [
+    "g_Kr"
+   ],
+   "ref_pair": [
+    "g_Kr",
+    "g_Ks"
+   ],
+   "n": 10,
+   "stable_single": 10,
+   "stable_pair": 9,
+   "flip_singles": [],
+   "flip_pairs": [
+    "g_Kr,g_to"
+   ],
+   "collapsed": 0
+  },
+  {
+   "compound": "ranolazine",
+   "mult": 4.0,
+   "truth": [
+    "g_Kr"
+   ],
+   "ref_single": [
+    "g_Kr"
+   ],
+   "ref_pair": [
+    "g_Kr",
+    "g_Ks"
+   ],
+   "n": 10,
+   "stable_single": 8,
+   "stable_pair": 6,
+   "flip_singles": [],
+   "flip_pairs": [
+    "g_Kr,g_to",
+    "g_Kr,g_CaL"
+   ],
+   "collapsed": 2
+  },
+  {
+   "compound": "astemizole",
+   "mult": 1.0,
+   "truth": [],
+   "ref_single": [
+    "g_Ks"
+   ],
+   "ref_pair": [
+    "g_Ks",
+    "g_to"
+   ],
+   "n": 10,
+   "stable_single": 10,
+   "stable_pair": 10,
+   "flip_singles": [],
+   "flip_pairs": [],
+   "collapsed": 0
+  },
+  {
+   "compound": "astemizole",
+   "mult": 4.0,
+   "truth": [
+    "g_Kr"
+   ],
+   "ref_single": [
+    "g_Ks"
+   ],
+   "ref_pair": [
+    "g_Kr",
+    "g_Ks"
+   ],
+   "n": 10,
+   "stable_single": 6,
+   "stable_pair": 7,
+   "flip_singles": [
+    "g_Kr",
+    "g_Kr",
+    "g_Kr",
+    "g_Kr"
+   ],
+   "flip_pairs": [
+    "g_Ks,g_to",
+    "g_Kr,g_to",
+    "g_Ks,g_to"
+   ],
+   "collapsed": 0
+  }
+ ]
+}

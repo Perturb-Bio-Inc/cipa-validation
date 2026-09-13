@@ -1,0 +1,26 @@
+{
+  "all_paired": {
+    "n_per_mode": 112,
+    "always_prolong_baseline": "88/112",
+    "multichannel": "92/112",
+    "multichannel_binom_p_vs_baseline": 0.21238,
+    "herg_static": "88/112",
+    "herg_dynamic": "88/112"
+  },
+  "measured_side_gt5": {
+    "n_per_mode": 92,
+    "always_prolong_baseline": "72/92",
+    "multichannel": "82/92",
+    "multichannel_binom_p_vs_baseline": 0.00532,
+    "herg_static": "72/92",
+    "herg_dynamic": "72/92"
+  },
+  "measured_side_gt5_beat": {
+    "n_per_mode": 77,
+    "always_prolong_baseline": "57/77",
+    "multichannel": "67/77",
+    "multichannel_binom_p_vs_baseline": 0.00447,
+    "herg_static": "55/77",
+    "herg_dynamic": "59/77"
+  }
+}

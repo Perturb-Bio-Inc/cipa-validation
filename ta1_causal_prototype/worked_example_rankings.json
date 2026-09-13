@@ -1,0 +1,2664 @@
+{
+ "n_hypotheses": 1560,
+ "n_singles": 60,
+ "n_pairs": 1500,
+ "baseline": {
+  "mdp": -75.60163056285252,
+  "peak_v": 34.28897620493701,
+  "amplitude": 109.89060676778954,
+  "dvdt_max": 33.09432977877128,
+  "n_beats": 8.0,
+  "apd90": 413.3142857142856,
+  "apd50": 356.9428571428571,
+  "cycle_length": 982.9333333333335,
+  "rate_bpm": 61.04177970699945,
+  "repol_failure": 0.0
+ },
+ "compounds": {
+  "dofetilide": {
+   "true_class": "High",
+   "targets": {
+    "1": {
+     "conc_nM": 2.0,
+     "target_biomarkers": {
+      "apd90": 476.71666666666664,
+      "apd50": 395.3833333333334,
+      "mdp": -75.41995872750255,
+      "dvdt_max": 33.050382594527974,
+      "rate_bpm": 57.52416014726184,
+      "collapsed": false
+     },
+     "currents_blocked_over_5pct": [
+      "g_Kr"
+     ],
+     "block_frac": {
+      "g_Kr": 0.30414,
+      "g_CaL": 0.00352,
+      "g_Na": 0.00929
+     },
+     "singles": [
+      {
+       "score": 0.1231,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.40640318336739,
+        "peak_v": 35.17738261654041,
+        "amplitude": 110.5837857999078,
+        "dvdt_max": 33.616746738897106,
+        "n_beats": 8.0,
+        "apd90": 490.3142857142857,
+        "apd50": 402.28571428571416,
+        "cycle_length": 1052.2666666666667,
+        "rate_bpm": 57.01976685250887,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.1347,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.44075220723413,
+        "peak_v": 34.89852240398182,
+        "amplitude": 110.33927461121596,
+        "dvdt_max": 33.39740703235299,
+        "n_beats": 7.0,
+        "apd90": 462.7666666666667,
+        "apd50": 387.58333333333354,
+        "cycle_length": 1027.56,
+        "rate_bpm": 58.39075090505664,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.4136,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.2
+       },
+       "biomarkers": {
+        "mdp": -75.79929199208837,
+        "peak_v": 34.66627721157983,
+        "amplitude": 110.4655692036682,
+        "dvdt_max": 33.03562154897841,
+        "n_beats": 8.0,
+        "apd90": 431.5285714285715,
+        "apd50": 374.68571428571437,
+        "cycle_length": 996.8833333333333,
+        "rate_bpm": 60.1875846387909,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.4432,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.53086531866872,
+        "peak_v": 34.523714133293694,
+        "amplitude": 110.05457945196241,
+        "dvdt_max": 33.17341619971846,
+        "n_beats": 8.0,
+        "apd90": 430.7571428571429,
+        "apd50": 368.31428571428575,
+        "cycle_length": 998.7166666666667,
+        "rate_bpm": 60.077098943644344,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.4566,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.35
+       },
+       "biomarkers": {
+        "mdp": -75.7593335082279,
+        "peak_v": 34.58676375753403,
+        "amplitude": 110.34609726576193,
+        "dvdt_max": 33.07816016237081,
+        "n_beats": 8.0,
+        "apd90": 427.61428571428576,
+        "apd50": 370.8714285714286,
+        "cycle_length": 993.6666666666669,
+        "rate_bpm": 60.38242200603823,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.4963,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.7211659169583,
+        "peak_v": 34.514807931753694,
+        "amplitude": 110.23597384871199,
+        "dvdt_max": 33.10533531964501,
+        "n_beats": 8.0,
+        "apd90": 424.0142857142856,
+        "apd50": 367.3857142857144,
+        "cycle_length": 990.9666666666667,
+        "rate_bpm": 60.54694069763531,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.044,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_Ks": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.54165267567691,
+        "peak_v": 35.08497201110772,
+        "amplitude": 110.62662468678464,
+        "dvdt_max": 33.47634857108086,
+        "n_beats": 7.0,
+        "apd90": 472.81666666666644,
+        "apd50": 397.09999999999974,
+        "cycle_length": 1035.3200000000002,
+        "rate_bpm": 57.95309662712977,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0494,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.65,
+        "g_Ks": 1.25
+       },
+       "biomarkers": {
+        "mdp": -75.33374258389514,
+        "peak_v": 35.048367747976826,
+        "amplitude": 110.38211033187197,
+        "dvdt_max": 33.54971145410026,
+        "n_beats": 7.0,
+        "apd90": 482.83333333333326,
+        "apd50": 395.3999999999999,
+        "cycle_length": 1045.9,
+        "rate_bpm": 57.366861076584755,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0597,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.65,
+        "g_Ks": 1.5
+       },
+       "biomarkers": {
+        "mdp": -75.26825572035578,
+        "peak_v": 34.92262980062151,
+        "amplitude": 110.19088552097729,
+        "dvdt_max": 33.59728770589027,
+        "n_beats": 7.0,
+        "apd90": 476.0333333333333,
+        "apd50": 389.2000000000001,
+        "cycle_length": 1041.1200000000001,
+        "rate_bpm": 57.63024435223605,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0614,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_Ks": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.58885113403284,
+        "peak_v": 35.1603955663963,
+        "amplitude": 110.74924670042914,
+        "dvdt_max": 33.46664766348789,
+        "n_beats": 7.0,
+        "apd90": 477.6666666666668,
+        "apd50": 401.7166666666667,
+        "cycle_length": 1039.3200000000002,
+        "rate_bpm": 57.730054266251,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0626,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_Ks": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.51231288112848,
+        "peak_v": 35.02749306825324,
+        "amplitude": 110.53980594938173,
+        "dvdt_max": 33.47291178157846,
+        "n_beats": 7.0,
+        "apd90": 469.84999999999997,
+        "apd50": 394.2999999999999,
+        "cycle_length": 1033.0,
+        "rate_bpm": 58.08325266214908,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0894,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.65,
+        "g_Ks": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.37467554672162,
+        "peak_v": 35.125844507933735,
+        "amplitude": 110.50052005465535,
+        "dvdt_max": 33.541634965954756,
+        "n_beats": 8.0,
+        "apd90": 487.17142857142863,
+        "apd50": 399.3571428571428,
+        "cycle_length": 1049.7833333333335,
+        "rate_bpm": 57.154650959721835,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    },
+    "4": {
+     "conc_nM": 8.0,
+     "target_biomarkers": {
+      "mdp": -42.79672309010929,
+      "dvdt_max": 0.6216636997773577,
+      "collapsed": true
+     },
+     "currents_blocked_over_5pct": [
+      "g_Kr"
+     ],
+     "block_frac": {
+      "g_Kr": 0.61339,
+      "g_CaL": 0.01732,
+      "g_Na": 0.03119
+     },
+     "singles": [
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.2
+       },
+       "biomarkers": {
+        "mdp": -35.451043841314544,
+        "peak_v": -6.037578822875785,
+        "amplitude": 29.413465018438757,
+        "dvdt_max": 0.35400243231389084,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.35
+       },
+       "biomarkers": {
+        "mdp": -41.20604666763783,
+        "peak_v": -0.03791216583725864,
+        "amplitude": 41.16813450180057,
+        "dvdt_max": 0.5806736629934619,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.05,
+       "currents": [
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_K1"
+       ],
+       "scales": {
+        "g_K1": 2.0
+       },
+       "biomarkers": {
+        "mdp": -74.20923629954429,
+        "peak_v": -74.2034736343723,
+        "amplitude": 0.005762665171985759,
+        "dvdt_max": 5.564189109443527e-07,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 10.0,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 1.5
+       },
+       "biomarkers": {
+        "mdp": -75.96466801134864,
+        "peak_v": 33.24240239998165,
+        "amplitude": 109.20707041133028,
+        "dvdt_max": 32.75573115724947,
+        "n_beats": 9.0,
+        "apd90": 349.6750000000001,
+        "apd50": 310.91250000000025,
+        "cycle_length": 924.2571428571429,
+        "rate_bpm": 64.91699897987573,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 10.0,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.57507879514606,
+        "peak_v": 34.240556681127416,
+        "amplitude": 109.81563547627347,
+        "dvdt_max": 33.06871827805503,
+        "n_beats": 8.0,
+        "apd90": 411.3285714285713,
+        "apd50": 355.02857142857135,
+        "cycle_length": 981.4499999999999,
+        "rate_bpm": 61.134036374751645,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 10.0,
+       "currents": [
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_CaL"
+       ],
+       "scales": {
+        "g_CaL": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.81065840122288,
+        "peak_v": 32.64464769539083,
+        "amplitude": 108.45530609661371,
+        "dvdt_max": 36.600162764351865,
+        "n_beats": 8.0,
+        "apd90": 394.9714285714289,
+        "apd50": 340.71428571428567,
+        "cycle_length": 1069.8500000000001,
+        "rate_bpm": 56.08262840585128,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.2,
+        "g_Ks": 0.75
+       },
+       "biomarkers": {
+        "mdp": -34.231688456708305,
+        "peak_v": -6.79234974163185,
+        "amplitude": 27.439338715076456,
+        "dvdt_max": 0.31538310341436215,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.35,
+        "g_Ks": 0.5
+       },
+       "biomarkers": {
+        "mdp": -40.62754495852254,
+        "peak_v": 1.8474567715710342,
+        "amplitude": 42.475001730093574,
+        "dvdt_max": 0.6072888008397825,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 1.0
+       }
+      },
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr",
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_CaL"
+       ],
+       "scales": {
+        "g_Kr": 0.2,
+        "g_CaL": 0.2
+       },
+       "biomarkers": {
+        "mdp": -35.201636690511435,
+        "peak_v": -23.528145523635988,
+        "amplitude": 11.673491166875447,
+        "dvdt_max": 0.0609611026573873,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr",
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_CaL"
+       ],
+       "scales": {
+        "g_Kr": 0.2,
+        "g_CaL": 1.5
+       },
+       "biomarkers": {
+        "mdp": -31.491633653228117,
+        "peak_v": -7.4224844361668465,
+        "amplitude": 24.06914921706127,
+        "dvdt_max": 0.3073320667323145,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 1.0
+       }
+      },
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr",
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_CaL"
+       ],
+       "scales": {
+        "g_Kr": 0.35,
+        "g_CaL": 1.1
+       },
+       "biomarkers": {
+        "mdp": -41.20305658674947,
+        "peak_v": 1.3393318181524492,
+        "amplitude": 42.54238840490192,
+        "dvdt_max": 0.6448809267524211,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.05,
+       "currents": [
+        "hERG / IKr",
+        "Nav1.5 / INa"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Na"
+       ],
+       "scales": {
+        "g_Kr": 0.2,
+        "g_Na": 0.75
+       },
+       "biomarkers": {
+        "mdp": -37.603463793262655,
+        "peak_v": -2.2997125059599774,
+        "amplitude": 35.303751287302674,
+        "dvdt_max": 0.4805142466610022,
+        "n_beats": 0.0,
+        "apd90": null,
+        "apd50": null,
+        "cycle_length": null,
+        "rate_bpm": null,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    }
+   }
+  },
+  "verapamil": {
+   "true_class": "Low",
+   "targets": {
+    "1": {
+     "conc_nM": 81.0,
+     "target_biomarkers": {
+      "apd90": 436.6666666666665,
+      "apd50": 366.8999999999999,
+      "mdp": -75.68179028400398,
+      "dvdt_max": 37.01324470805035,
+      "rate_bpm": 53.866733700824156,
+      "collapsed": false
+     },
+     "currents_blocked_over_5pct": [
+      "g_CaL",
+      "g_Kr"
+     ],
+     "block_frac": {
+      "g_Kr": 0.22833,
+      "g_CaL": 0.26792
+     },
+     "singles": [
+      {
+       "score": 0.1712,
+       "currents": [
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_K1"
+       ],
+       "scales": {
+        "g_K1": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.79801233803985,
+        "peak_v": 35.03009227274991,
+        "amplitude": 110.82810461078977,
+        "dvdt_max": 37.38622995734214,
+        "n_beats": 8.0,
+        "apd90": 418.8,
+        "apd50": 362.8142857142857,
+        "cycle_length": 1078.0166666666667,
+        "rate_bpm": 55.65776657751117,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.327,
+       "currents": [
+        "Ito"
+       ],
+       "keys": [
+        "g_to"
+       ],
+       "scales": {
+        "g_to": 2.0
+       },
+       "biomarkers": {
+        "mdp": -75.49503771737446,
+        "peak_v": 31.05686515556952,
+        "amplitude": 106.55190287294397,
+        "dvdt_max": 34.40653165633478,
+        "n_beats": 8.0,
+        "apd90": 418.82857142857137,
+        "apd50": 363.9,
+        "cycle_length": 1017.0166666666668,
+        "rate_bpm": 58.996083315579874,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3477,
+       "currents": [
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_K1"
+       ],
+       "scales": {
+        "g_K1": 1.25
+       },
+       "biomarkers": {
+        "mdp": -76.05247212566972,
+        "peak_v": 35.880372326632006,
+        "amplitude": 111.93284445230174,
+        "dvdt_max": 42.978757128607015,
+        "n_beats": 7.0,
+        "apd90": 425.3666666666668,
+        "apd50": 370.0333333333333,
+        "cycle_length": 1229.5800000000002,
+        "rate_bpm": 48.7971502464256,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3687,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.53086531866872,
+        "peak_v": 34.523714133293694,
+        "amplitude": 110.05457945196241,
+        "dvdt_max": 33.17341619971846,
+        "n_beats": 8.0,
+        "apd90": 430.7571428571429,
+        "apd50": 368.31428571428575,
+        "cycle_length": 998.7166666666667,
+        "rate_bpm": 60.077098943644344,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3812,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.2
+       },
+       "biomarkers": {
+        "mdp": -75.79929199208837,
+        "peak_v": 34.66627721157983,
+        "amplitude": 110.4655692036682,
+        "dvdt_max": 33.03562154897841,
+        "n_beats": 8.0,
+        "apd90": 431.5285714285715,
+        "apd50": 374.68571428571437,
+        "cycle_length": 996.8833333333333,
+        "rate_bpm": 60.1875846387909,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3849,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.44075220723413,
+        "peak_v": 34.89852240398182,
+        "amplitude": 110.33927461121596,
+        "dvdt_max": 33.39740703235299,
+        "n_beats": 7.0,
+        "apd90": 462.7666666666667,
+        "apd50": 387.58333333333354,
+        "cycle_length": 1027.56,
+        "rate_bpm": 58.39075090505664,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.0601,
+       "currents": [
+        "hERG / IKr",
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_CaL"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_CaL": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.65317925359996,
+        "peak_v": 33.237558607850694,
+        "amplitude": 108.89073786145065,
+        "dvdt_max": 36.85927120540582,
+        "n_beats": 7.0,
+        "apd90": 442.9666666666667,
+        "apd50": 370.9166666666666,
+        "cycle_length": 1110.4200000000003,
+        "rate_bpm": 54.033608904738735,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0889,
+       "currents": [
+        "hERG / IKr",
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_K1"
+       ],
+       "scales": {
+        "g_Kr": 0.9,
+        "g_K1": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.74973747132684,
+        "peak_v": 35.248167964846175,
+        "amplitude": 110.99790543617301,
+        "dvdt_max": 37.54611296220803,
+        "n_beats": 7.0,
+        "apd90": 436.05,
+        "apd50": 374.1666666666667,
+        "cycle_length": 1092.8200000000002,
+        "rate_bpm": 54.90382679672772,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.1053,
+       "currents": [
+        "Kir2.1 / IK1",
+        "Ito"
+       ],
+       "keys": [
+        "g_K1",
+        "g_to"
+       ],
+       "scales": {
+        "g_K1": 1.1,
+        "g_to": 2.0
+       },
+       "biomarkers": {
+        "mdp": -75.70583923577708,
+        "peak_v": 32.002741131924616,
+        "amplitude": 107.7085803677017,
+        "dvdt_max": 38.461249354156294,
+        "n_beats": 7.0,
+        "apd90": 424.25000000000006,
+        "apd50": 369.6833333333332,
+        "cycle_length": 1111.82,
+        "rate_bpm": 53.965569966361464,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.1139,
+       "currents": [
+        "IKs",
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_K1"
+       ],
+       "scales": {
+        "g_Ks": 0.5,
+        "g_K1": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.9139416404929,
+        "peak_v": 35.25556812207365,
+        "amplitude": 111.16950976256655,
+        "dvdt_max": 37.42538782552414,
+        "n_beats": 8.0,
+        "apd90": 429.71428571428584,
+        "apd50": 373.4714285714287,
+        "cycle_length": 1085.3833333333334,
+        "rate_bpm": 55.28000859911244,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.1188,
+       "currents": [
+        "hERG / IKr",
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_CaL"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_CaL": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.7629966770076,
+        "peak_v": 32.41576928346704,
+        "amplitude": 108.17876596047465,
+        "dvdt_max": 38.210528525458415,
+        "n_beats": 7.0,
+        "apd90": 433.48333333333335,
+        "apd50": 362.7833333333335,
+        "cycle_length": 1153.8200000000002,
+        "rate_bpm": 52.00117869338371,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.1198,
+       "currents": [
+        "IKs",
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_K1"
+       ],
+       "scales": {
+        "g_Ks": 0.65,
+        "g_K1": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.87715341418026,
+        "peak_v": 35.192300094203965,
+        "amplitude": 111.06945350838421,
+        "dvdt_max": 37.401348360224546,
+        "n_beats": 8.0,
+        "apd90": 426.3571428571431,
+        "apd50": 370.1714285714287,
+        "cycle_length": 1083.45,
+        "rate_bpm": 55.378651529835246,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    },
+    "4": {
+     "conc_nM": 324.0,
+     "target_biomarkers": {
+      "apd90": 490.8999999999999,
+      "apd50": 377.2600000000001,
+      "mdp": -76.11312676990104,
+      "dvdt_max": 42.25379078830048,
+      "rate_bpm": 43.271311120726956,
+      "collapsed": false
+     },
+     "currents_blocked_over_5pct": [
+      "g_CaL",
+      "g_Kr"
+     ],
+     "block_frac": {
+      "g_Kr": 0.52824,
+      "g_CaL": 0.62708
+     },
+     "singles": [
+      {
+       "score": 0.5522,
+       "currents": [
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_K1"
+       ],
+       "scales": {
+        "g_K1": 1.5
+       },
+       "biomarkers": {
+        "mdp": -76.41128339837266,
+        "peak_v": 36.92532717412185,
+        "amplitude": 113.33661057249451,
+        "dvdt_max": 49.60612436564551,
+        "n_beats": 5.0,
+        "apd90": 433.3249999999999,
+        "apd50": 379.1749999999999,
+        "cycle_length": 1559.1666666666667,
+        "rate_bpm": 38.48209513629075,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.582,
+       "currents": [
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_K1"
+       ],
+       "scales": {
+        "g_K1": 1.25
+       },
+       "biomarkers": {
+        "mdp": -76.05247212566972,
+        "peak_v": 35.880372326632006,
+        "amplitude": 111.93284445230174,
+        "dvdt_max": 42.978757128607015,
+        "n_beats": 7.0,
+        "apd90": 425.3666666666668,
+        "apd50": 370.0333333333333,
+        "cycle_length": 1229.5800000000002,
+        "rate_bpm": 48.7971502464256,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.8433,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.40640318336739,
+        "peak_v": 35.17738261654041,
+        "amplitude": 110.5837857999078,
+        "dvdt_max": 33.616746738897106,
+        "n_beats": 8.0,
+        "apd90": 490.3142857142857,
+        "apd50": 402.28571428571416,
+        "cycle_length": 1052.2666666666667,
+        "rate_bpm": 57.01976685250887,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.8982,
+       "currents": [
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_K1"
+       ],
+       "scales": {
+        "g_K1": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.79801233803985,
+        "peak_v": 35.03009227274991,
+        "amplitude": 110.82810461078977,
+        "dvdt_max": 37.38622995734214,
+        "n_beats": 8.0,
+        "apd90": 418.8,
+        "apd50": 362.8142857142857,
+        "cycle_length": 1078.0166666666667,
+        "rate_bpm": 55.65776657751117,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.9166,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.44075220723413,
+        "peak_v": 34.89852240398182,
+        "amplitude": 110.33927461121596,
+        "dvdt_max": 33.39740703235299,
+        "n_beats": 7.0,
+        "apd90": 462.7666666666667,
+        "apd50": 387.58333333333354,
+        "cycle_length": 1027.56,
+        "rate_bpm": 58.39075090505664,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.9278,
+       "currents": [
+        "Nav1.5 / INa"
+       ],
+       "keys": [
+        "g_Na"
+       ],
+       "scales": {
+        "g_Na": 0.2
+       },
+       "biomarkers": {
+        "mdp": -75.63438323675939,
+        "peak_v": 35.283045334227424,
+        "amplitude": 110.91742857098681,
+        "dvdt_max": 17.83006686790404,
+        "n_beats": 6.0,
+        "apd90": 423.8399999999998,
+        "apd50": 369.7999999999997,
+        "cycle_length": 1246.0500000000002,
+        "rate_bpm": 48.15216082821716,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.1498,
+       "currents": [
+        "hERG / IKr",
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_CaL"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_CaL": 0.35
+       },
+       "biomarkers": {
+        "mdp": -76.13834785874172,
+        "peak_v": 30.000180693957642,
+        "amplitude": 106.13852855269937,
+        "dvdt_max": 42.470853086480744,
+        "n_beats": 6.0,
+        "apd90": 473.2199999999998,
+        "apd50": 369.5,
+        "cycle_length": 1394.8750000000002,
+        "rate_bpm": 43.014607043641895,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.2054,
+       "currents": [
+        "hERG / IKr",
+        "Cav1.2 / ICaL"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_CaL"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_CaL": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.91825475585806,
+        "peak_v": 31.646432527600837,
+        "amplitude": 107.5646872834589,
+        "dvdt_max": 40.59461226055642,
+        "n_beats": 7.0,
+        "apd90": 496.06666666666666,
+        "apd50": 386.9166666666665,
+        "cycle_length": 1293.22,
+        "rate_bpm": 46.395818190253785,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3377,
+       "currents": [
+        "hERG / IKr",
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_K1"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_K1": 1.25
+       },
+       "biomarkers": {
+        "mdp": -76.05616887075188,
+        "peak_v": 36.39318247467398,
+        "amplitude": 112.44935134542585,
+        "dvdt_max": 42.98576229870453,
+        "n_beats": 6.0,
+        "apd90": 472.4800000000002,
+        "apd50": 400.02000000000015,
+        "cycle_length": 1265.8500000000001,
+        "rate_bpm": 47.39898092191017,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3745,
+       "currents": [
+        "Cav1.2 / ICaL",
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_CaL",
+        "g_K1"
+       ],
+       "scales": {
+        "g_CaL": 1.25,
+        "g_K1": 1.5
+       },
+       "biomarkers": {
+        "mdp": -76.28196905182331,
+        "peak_v": 38.329254326985925,
+        "amplitude": 114.61122337880923,
+        "dvdt_max": 47.570714884525515,
+        "n_beats": 6.0,
+        "apd90": 450.5999999999998,
+        "apd50": 394.51999999999987,
+        "cycle_length": 1369.975,
+        "rate_bpm": 43.79641964269421,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3831,
+       "currents": [
+        "hERG / IKr",
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_K1"
+       ],
+       "scales": {
+        "g_Kr": 0.65,
+        "g_K1": 1.25
+       },
+       "biomarkers": {
+        "mdp": -76.09857541648394,
+        "peak_v": 36.61160973865678,
+        "amplitude": 112.71018515514072,
+        "dvdt_max": 43.05330072485164,
+        "n_beats": 6.0,
+        "apd90": 497.4000000000001,
+        "apd50": 413.96000000000015,
+        "cycle_length": 1285.65,
+        "rate_bpm": 46.6690001166725,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.4329,
+       "currents": [
+        "Cav1.2 / ICaL",
+        "Kir2.1 / IK1"
+       ],
+       "keys": [
+        "g_CaL",
+        "g_K1"
+       ],
+       "scales": {
+        "g_CaL": 1.5,
+        "g_K1": 1.5
+       },
+       "biomarkers": {
+        "mdp": -76.19927373594567,
+        "peak_v": 39.409734927482695,
+        "amplitude": 115.60900866342837,
+        "dvdt_max": 45.287456367877965,
+        "n_beats": 6.0,
+        "apd90": 464.43999999999994,
+        "apd50": 406.92,
+        "cycle_length": 1249.975,
+        "rate_bpm": 48.000960019200384,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    }
+   }
+  },
+  "ranolazine": {
+   "true_class": "Low",
+   "targets": {
+    "1": {
+     "conc_nM": 1950.0,
+     "target_biomarkers": {
+      "apd90": 454.98571428571415,
+      "apd50": 383.1999999999999,
+      "mdp": -75.45565687685378,
+      "dvdt_max": 33.0824720984768,
+      "rate_bpm": 58.714159898228786,
+      "collapsed": false
+     },
+     "currents_blocked_over_5pct": [
+      "g_Kr"
+     ],
+     "block_frac": {
+      "g_Kr": 0.21729,
+      "g_Na": 0.00631
+     },
+     "singles": [
+      {
+       "score": 0.0729,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.44075220723413,
+        "peak_v": 34.89852240398182,
+        "amplitude": 110.33927461121596,
+        "dvdt_max": 33.39740703235299,
+        "n_beats": 7.0,
+        "apd90": 462.7666666666667,
+        "apd50": 387.58333333333354,
+        "cycle_length": 1027.56,
+        "rate_bpm": 58.39075090505664,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.21,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.2
+       },
+       "biomarkers": {
+        "mdp": -75.79929199208837,
+        "peak_v": 34.66627721157983,
+        "amplitude": 110.4655692036682,
+        "dvdt_max": 33.03562154897841,
+        "n_beats": 8.0,
+        "apd90": 431.5285714285715,
+        "apd50": 374.68571428571437,
+        "cycle_length": 996.8833333333333,
+        "rate_bpm": 60.1875846387909,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.2371,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.53086531866872,
+        "peak_v": 34.523714133293694,
+        "amplitude": 110.05457945196241,
+        "dvdt_max": 33.17341619971846,
+        "n_beats": 8.0,
+        "apd90": 430.7571428571429,
+        "apd50": 368.31428571428575,
+        "cycle_length": 998.7166666666667,
+        "rate_bpm": 60.077098943644344,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.2514,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.35
+       },
+       "biomarkers": {
+        "mdp": -75.7593335082279,
+        "peak_v": 34.58676375753403,
+        "amplitude": 110.34609726576193,
+        "dvdt_max": 33.07816016237081,
+        "n_beats": 8.0,
+        "apd90": 427.61428571428576,
+        "apd50": 370.8714285714286,
+        "cycle_length": 993.6666666666669,
+        "rate_bpm": 60.38242200603823,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.2904,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.7211659169583,
+        "peak_v": 34.514807931753694,
+        "amplitude": 110.23597384871199,
+        "dvdt_max": 33.10533531964501,
+        "n_beats": 8.0,
+        "apd90": 424.0142857142856,
+        "apd50": 367.3857142857144,
+        "cycle_length": 990.9666666666667,
+        "rate_bpm": 60.54694069763531,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.3229,
+       "currents": [
+        "Ito"
+       ],
+       "keys": [
+        "g_to"
+       ],
+       "scales": {
+        "g_to": 2.0
+       },
+       "biomarkers": {
+        "mdp": -75.49503771737446,
+        "peak_v": 31.05686515556952,
+        "amplitude": 106.55190287294397,
+        "dvdt_max": 34.40653165633478,
+        "n_beats": 8.0,
+        "apd90": 418.82857142857137,
+        "apd50": 363.9,
+        "cycle_length": 1017.0166666666668,
+        "rate_bpm": 58.996083315579874,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.0224,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_Ks": 1.25
+       },
+       "biomarkers": {
+        "mdp": -75.37374145169042,
+        "peak_v": 34.77303575236146,
+        "amplitude": 110.14677720405189,
+        "dvdt_max": 33.4470740502623,
+        "n_beats": 8.0,
+        "apd90": 456.3285714285715,
+        "apd50": 381.5285714285716,
+        "cycle_length": 1022.6333333333333,
+        "rate_bpm": 58.672055803644184,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0433,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_Ks": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.41308282482028,
+        "peak_v": 34.85240883641772,
+        "amplitude": 110.265491661238,
+        "dvdt_max": 33.38121245325095,
+        "n_beats": 8.0,
+        "apd90": 460.0285714285715,
+        "apd50": 385.0142857142858,
+        "cycle_length": 1025.1000000000001,
+        "rate_bpm": 58.53087503658179,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0538,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_to": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.46817197249857,
+        "peak_v": 37.44599623950282,
+        "amplitude": 112.91416821200139,
+        "dvdt_max": 32.93211049270826,
+        "n_beats": 8.0,
+        "apd90": 461.40000000000003,
+        "apd50": 384.32857142857137,
+        "cycle_length": 1015.1166666666668,
+        "rate_bpm": 59.10650664127275,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0579,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_to": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.45865415646396,
+        "peak_v": 36.53913799495986,
+        "amplitude": 111.99779215142382,
+        "dvdt_max": 33.08640395550961,
+        "n_beats": 8.0,
+        "apd90": 462.0285714285712,
+        "apd50": 385.7000000000001,
+        "cycle_length": 1018.9166666666666,
+        "rate_bpm": 58.886071808293124,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0604,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.75,
+        "g_to": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.48619812857082,
+        "peak_v": 39.31701145226843,
+        "amplitude": 114.80320958083925,
+        "dvdt_max": 32.819921542196965,
+        "n_beats": 8.0,
+        "apd90": 461.12857142857166,
+        "apd50": 382.5142857142859,
+        "cycle_length": 1010.1833333333334,
+        "rate_bpm": 59.39515929451749,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0636,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.9,
+        "g_Ks": 0.2
+       },
+       "biomarkers": {
+        "mdp": -75.74577531537666,
+        "peak_v": 34.92541314235486,
+        "amplitude": 110.67118845773152,
+        "dvdt_max": 33.22752990797889,
+        "n_beats": 8.0,
+        "apd90": 451.3857142857144,
+        "apd50": 388.25714285714304,
+        "cycle_length": 1014.3833333333333,
+        "rate_bpm": 59.14923681054171,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    },
+    "4": {
+     "conc_nM": 7800.0,
+     "target_biomarkers": {
+      "apd90": 543.8666666666667,
+      "apd50": 425.68333333333356,
+      "mdp": -75.41095645540216,
+      "dvdt_max": 31.746150763096097,
+      "rate_bpm": 54.1750939034961,
+      "collapsed": false
+     },
+     "currents_blocked_over_5pct": [
+      "g_Kr"
+     ],
+     "block_frac": {
+      "g_Kr": 0.48703,
+      "g_Na": 0.04346
+     },
+     "singles": [
+      {
+       "score": 0.1038,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.40690057073573,
+        "peak_v": 35.655995064344154,
+        "amplitude": 111.06289563507988,
+        "dvdt_max": 34.012398412424176,
+        "n_beats": 7.0,
+        "apd90": 554.1833333333334,
+        "apd50": 427.6000000000001,
+        "cycle_length": 1107.22,
+        "rate_bpm": 54.189772583587725,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.4812,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.40640318336739,
+        "peak_v": 35.17738261654041,
+        "amplitude": 110.5837857999078,
+        "dvdt_max": 33.616746738897106,
+        "n_beats": 8.0,
+        "apd90": 490.3142857142857,
+        "apd50": 402.28571428571416,
+        "cycle_length": 1052.2666666666667,
+        "rate_bpm": 57.01976685250887,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.7345,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.44075220723413,
+        "peak_v": 34.89852240398182,
+        "amplitude": 110.33927461121596,
+        "dvdt_max": 33.39740703235299,
+        "n_beats": 7.0,
+        "apd90": 462.7666666666667,
+        "apd50": 387.58333333333354,
+        "cycle_length": 1027.56,
+        "rate_bpm": 58.39075090505664,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 1.0123,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.2
+       },
+       "biomarkers": {
+        "mdp": -75.79929199208837,
+        "peak_v": 34.66627721157983,
+        "amplitude": 110.4655692036682,
+        "dvdt_max": 33.03562154897841,
+        "n_beats": 8.0,
+        "apd90": 431.5285714285715,
+        "apd50": 374.68571428571437,
+        "cycle_length": 996.8833333333333,
+        "rate_bpm": 60.1875846387909,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 1.0416,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.53086531866872,
+        "peak_v": 34.523714133293694,
+        "amplitude": 110.05457945196241,
+        "dvdt_max": 33.17341619971846,
+        "n_beats": 8.0,
+        "apd90": 430.7571428571429,
+        "apd50": 368.31428571428575,
+        "cycle_length": 998.7166666666667,
+        "rate_bpm": 60.077098943644344,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 1.0555,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.35
+       },
+       "biomarkers": {
+        "mdp": -75.7593335082279,
+        "peak_v": 34.58676375753403,
+        "amplitude": 110.34609726576193,
+        "dvdt_max": 33.07816016237081,
+        "n_beats": 8.0,
+        "apd90": 427.61428571428576,
+        "apd50": 370.8714285714286,
+        "cycle_length": 993.6666666666669,
+        "rate_bpm": 60.38242200603823,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.0835,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_Ks": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.38162457026687,
+        "peak_v": 35.60028796866676,
+        "amplitude": 110.98191253893363,
+        "dvdt_max": 34.03787689263898,
+        "n_beats": 7.0,
+        "apd90": 549.8833333333333,
+        "apd50": 424.18333333333345,
+        "cycle_length": 1103.8200000000002,
+        "rate_bpm": 54.35668859053106,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0922,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_Ks": 1.25
+       },
+       "biomarkers": {
+        "mdp": -75.34623105189628,
+        "peak_v": 35.513995229306175,
+        "amplitude": 110.86022628120246,
+        "dvdt_max": 34.05746196450926,
+        "n_beats": 7.0,
+        "apd90": 543.9499999999999,
+        "apd50": 419.3666666666666,
+        "cycle_length": 1099.18,
+        "rate_bpm": 54.58614603613603,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.095,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_to": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.3681400509374,
+        "peak_v": 38.001314184910704,
+        "amplitude": 113.36945423584811,
+        "dvdt_max": 33.63567959574796,
+        "n_beats": 7.0,
+        "apd90": 553.1999999999999,
+        "apd50": 424.0500000000002,
+        "cycle_length": 1097.3200000000002,
+        "rate_bpm": 54.67867167280282,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0975,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_to": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.37576117995293,
+        "peak_v": 37.171573789463324,
+        "amplitude": 112.54733496941626,
+        "dvdt_max": 33.81295207836314,
+        "n_beats": 7.0,
+        "apd90": 553.6166666666666,
+        "apd50": 425.3333333333334,
+        "cycle_length": 1100.1399999999999,
+        "rate_bpm": 54.53851328012799,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0989,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_to": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.39367648675986,
+        "peak_v": 36.187965667902255,
+        "amplitude": 111.58164215466212,
+        "dvdt_max": 33.80006742430233,
+        "n_beats": 7.0,
+        "apd90": 554.1166666666664,
+        "apd50": 426.8999999999999,
+        "cycle_length": 1104.52,
+        "rate_bpm": 54.32223952486148,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.1011,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.5,
+        "g_to": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.350996066402,
+        "peak_v": 39.73032200666814,
+        "amplitude": 115.08131807307015,
+        "dvdt_max": 33.47542397140795,
+        "n_beats": 7.0,
+        "apd90": 553.3333333333334,
+        "apd50": 422.00000000000017,
+        "cycle_length": 1093.7000000000003,
+        "rate_bpm": 54.85965072689036,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    }
+   }
+  },
+  "astemizole": {
+   "true_class": "Intermediate",
+   "targets": {
+    "1": {
+     "conc_nM": 0.26,
+     "target_biomarkers": {
+      "apd90": 418.49999999999994,
+      "apd50": 360.41428571428565,
+      "mdp": -75.57600673378258,
+      "dvdt_max": 33.11706019114138,
+      "rate_bpm": 60.74001585989303,
+      "collapsed": false
+     },
+     "currents_blocked_over_5pct": [],
+     "block_frac": {
+      "g_Kr": 0.03091,
+      "g_CaL": 9e-05,
+      "g_Na": 0.00066
+     },
+     "singles": [
+      {
+       "score": 0.0157,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.65702770603095,
+        "peak_v": 34.39632840400182,
+        "amplitude": 110.05335611003277,
+        "dvdt_max": 33.05115873997944,
+        "n_beats": 8.0,
+        "apd90": 418.3285714285716,
+        "apd50": 361.84285714285716,
+        "cycle_length": 986.3666666666668,
+        "rate_bpm": 60.829306207968635,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0304,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.62457905034057,
+        "peak_v": 34.329289725524696,
+        "amplitude": 109.95386877586526,
+        "dvdt_max": 33.06429950465525,
+        "n_beats": 8.0,
+        "apd90": 415.2999999999999,
+        "apd50": 358.8857142857144,
+        "cycle_length": 984.2666666666665,
+        "rate_bpm": 60.95908967759416,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.037,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.68202166180652,
+        "peak_v": 34.44133035385022,
+        "amplitude": 110.12335201565674,
+        "dvdt_max": 33.02806850517459,
+        "n_beats": 8.0,
+        "apd90": 420.54285714285726,
+        "apd50": 364.0142857142858,
+        "cycle_length": 987.8833333333336,
+        "rate_bpm": 60.73591685927824,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0377,
+       "currents": [
+        "Ito"
+       ],
+       "keys": [
+        "g_to"
+       ],
+       "scales": {
+        "g_to": 1.25
+       },
+       "biomarkers": {
+        "mdp": -75.56120834681809,
+        "peak_v": 33.10859275928876,
+        "amplitude": 108.66980110610686,
+        "dvdt_max": 33.444800485460846,
+        "n_beats": 8.0,
+        "apd90": 414.4428571428572,
+        "apd50": 358.65714285714284,
+        "cycle_length": 991.5666666666667,
+        "rate_bpm": 60.510303560022855,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0445,
+       "currents": [
+        "Ito"
+       ],
+       "keys": [
+        "g_to"
+       ],
+       "scales": {
+        "g_to": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.58123030556837,
+        "peak_v": 33.76084643347603,
+        "amplitude": 109.3420767390444,
+        "dvdt_max": 33.19053296229599,
+        "n_beats": 8.0,
+        "apd90": 413.6571428571429,
+        "apd50": 357.58571428571446,
+        "cycle_length": 986.2166666666667,
+        "rate_bpm": 60.83855812617241,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0535,
+       "currents": [
+        "Ito"
+       ],
+       "keys": [
+        "g_to"
+       ],
+       "scales": {
+        "g_to": 1.5
+       },
+       "biomarkers": {
+        "mdp": -75.53130511256164,
+        "peak_v": 32.236416244449615,
+        "amplitude": 107.76772135701125,
+        "dvdt_max": 33.85393677976495,
+        "n_beats": 8.0,
+        "apd90": 415.59999999999997,
+        "apd50": 360.24285714285725,
+        "cycle_length": 1000.6333333333333,
+        "rate_bpm": 59.96202405143409,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.0208,
+       "currents": [
+        "IKs",
+        "Ito"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_to"
+       ],
+       "scales": {
+        "g_Ks": 0.75,
+        "g_to": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.67601065570285,
+        "peak_v": 34.99972290491359,
+        "amplitude": 110.67573356061644,
+        "dvdt_max": 32.98205434706199,
+        "n_beats": 8.0,
+        "apd90": 418.04285714285714,
+        "apd50": 361.24285714285713,
+        "cycle_length": 983.0500000000002,
+        "rate_bpm": 61.03453537459945,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0223,
+       "currents": [
+        "IKs",
+        "Ito"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_to"
+       ],
+       "scales": {
+        "g_Ks": 0.75,
+        "g_to": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.64196196856689,
+        "peak_v": 33.88327261098345,
+        "amplitude": 109.52523457955033,
+        "dvdt_max": 33.23928032541225,
+        "n_beats": 8.0,
+        "apd90": 418.8142857142857,
+        "apd50": 362.57142857142856,
+        "cycle_length": 990.25,
+        "rate_bpm": 60.590759909113864,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0235,
+       "currents": [
+        "IKs",
+        "Ito"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_to"
+       ],
+       "scales": {
+        "g_Ks": 0.9,
+        "g_to": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.60550510781736,
+        "peak_v": 33.80873583352294,
+        "amplitude": 109.4142409413403,
+        "dvdt_max": 33.190918198042,
+        "n_beats": 8.0,
+        "apd90": 415.6000000000001,
+        "apd50": 359.45714285714286,
+        "cycle_length": 987.7666666666668,
+        "rate_bpm": 60.743090473458636,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.026,
+       "currents": [
+        "IKs",
+        "Ito"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_to"
+       ],
+       "scales": {
+        "g_Ks": 0.9,
+        "g_to": 1.25
+       },
+       "biomarkers": {
+        "mdp": -75.58299714130665,
+        "peak_v": 33.150245631722676,
+        "amplitude": 108.73324277302933,
+        "dvdt_max": 33.43613156005196,
+        "n_beats": 8.0,
+        "apd90": 416.3571428571427,
+        "apd50": 360.54285714285703,
+        "cycle_length": 993.1166666666668,
+        "rate_bpm": 60.41586252034839,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0292,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.9,
+        "g_Ks": 1.5
+       },
+       "biomarkers": {
+        "mdp": -75.4098008233324,
+        "peak_v": 34.28714893948729,
+        "amplitude": 109.69694976281968,
+        "dvdt_max": 33.21859962917516,
+        "n_beats": 8.0,
+        "apd90": 420.4714285714285,
+        "apd50": 358.4142857142859,
+        "cycle_length": 990.5500000000001,
+        "rate_bpm": 60.572409267578614,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0336,
+       "currents": [
+        "IKs",
+        "Ito"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_to"
+       ],
+       "scales": {
+        "g_Ks": 0.65,
+        "g_to": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.69793941177342,
+        "peak_v": 35.04978718133547,
+        "amplitude": 110.7477265931089,
+        "dvdt_max": 32.93137348279632,
+        "n_beats": 8.0,
+        "apd90": 420.27142857142854,
+        "apd50": 363.3571428571427,
+        "cycle_length": 984.7000000000002,
+        "rate_bpm": 60.932263633593976,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    },
+    "4": {
+     "conc_nM": 1.04,
+     "target_biomarkers": {
+      "apd90": 426.8428571428572,
+      "apd50": 365.8428571428572,
+      "mdp": -75.54254697742303,
+      "dvdt_max": 33.087827334309935,
+      "rate_bpm": 60.285350659789664,
+      "collapsed": false
+     },
+     "currents_blocked_over_5pct": [
+      "g_Kr"
+     ],
+     "block_frac": {
+      "g_Kr": 0.07863,
+      "g_CaL": 0.00047,
+      "g_Na": 0.00183
+     },
+     "singles": [
+      {
+       "score": 0.0332,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.5
+       },
+       "biomarkers": {
+        "mdp": -75.7211659169583,
+        "peak_v": 34.514807931753694,
+        "amplitude": 110.23597384871199,
+        "dvdt_max": 33.10533531964501,
+        "n_beats": 8.0,
+        "apd90": 424.0142857142856,
+        "apd50": 367.3857142857144,
+        "cycle_length": 990.9666666666667,
+        "rate_bpm": 60.54694069763531,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0385,
+       "currents": [
+        "hERG / IKr"
+       ],
+       "keys": [
+        "g_Kr"
+       ],
+       "scales": {
+        "g_Kr": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.53086531866872,
+        "peak_v": 34.523714133293694,
+        "amplitude": 110.05457945196241,
+        "dvdt_max": 33.17341619971846,
+        "n_beats": 8.0,
+        "apd90": 430.7571428571429,
+        "apd50": 368.31428571428575,
+        "cycle_length": 998.7166666666667,
+        "rate_bpm": 60.077098943644344,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0496,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.35
+       },
+       "biomarkers": {
+        "mdp": -75.7593335082279,
+        "peak_v": 34.58676375753403,
+        "amplitude": 110.34609726576193,
+        "dvdt_max": 33.07816016237081,
+        "n_beats": 8.0,
+        "apd90": 427.61428571428576,
+        "apd50": 370.8714285714286,
+        "cycle_length": 993.6666666666669,
+        "rate_bpm": 60.38242200603823,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0571,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.65
+       },
+       "biomarkers": {
+        "mdp": -75.68202166180652,
+        "peak_v": 34.44133035385022,
+        "amplitude": 110.12335201565674,
+        "dvdt_max": 33.02806850517459,
+        "n_beats": 8.0,
+        "apd90": 420.54285714285726,
+        "apd50": 364.0142857142858,
+        "cycle_length": 987.8833333333336,
+        "rate_bpm": 60.73591685927824,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0796,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.65702770603095,
+        "peak_v": 34.39632840400182,
+        "amplitude": 110.05335611003277,
+        "dvdt_max": 33.05115873997944,
+        "n_beats": 8.0,
+        "apd90": 418.3285714285716,
+        "apd50": 361.84285714285716,
+        "cycle_length": 986.3666666666668,
+        "rate_bpm": 60.829306207968635,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0896,
+       "currents": [
+        "IKs"
+       ],
+       "keys": [
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Ks": 0.2
+       },
+       "biomarkers": {
+        "mdp": -75.79929199208837,
+        "peak_v": 34.66627721157983,
+        "amplitude": 110.4655692036682,
+        "dvdt_max": 33.03562154897841,
+        "n_beats": 8.0,
+        "apd90": 431.5285714285715,
+        "apd50": 374.68571428571437,
+        "cycle_length": 996.8833333333333,
+        "rate_bpm": 60.1875846387909,
+        "repol_failure": 0.0
+       }
+      }
+     ],
+     "pairs": [
+      {
+       "score": 0.0159,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.9,
+        "g_Ks": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.50152231249189,
+        "peak_v": 34.47452947942102,
+        "amplitude": 109.97605179191291,
+        "dvdt_max": 33.12745545923701,
+        "n_beats": 8.0,
+        "apd90": 428.6428571428573,
+        "apd50": 366.28571428571433,
+        "cycle_length": 997.1833333333333,
+        "rate_bpm": 60.169477361234144,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0252,
+       "currents": [
+        "hERG / IKr",
+        "IKs"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_Ks"
+       ],
+       "scales": {
+        "g_Kr": 0.9,
+        "g_Ks": 1.25
+       },
+       "biomarkers": {
+        "mdp": -75.46534086412403,
+        "peak_v": 34.40938385502984,
+        "amplitude": 109.87472471915387,
+        "dvdt_max": 33.168137569229785,
+        "n_beats": 8.0,
+        "apd90": 425.59999999999985,
+        "apd50": 363.3571428571427,
+        "cycle_length": 995.2000000000002,
+        "rate_bpm": 60.289389067524105,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0307,
+       "currents": [
+        "IKs",
+        "Ito"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_to"
+       ],
+       "scales": {
+        "g_Ks": 0.5,
+        "g_to": 1.1
+       },
+       "biomarkers": {
+        "mdp": -75.70300134929688,
+        "peak_v": 34.00740787891336,
+        "amplitude": 109.71040922821024,
+        "dvdt_max": 33.243812568367034,
+        "n_beats": 8.0,
+        "apd90": 424.28571428571416,
+        "apd50": 367.9,
+        "cycle_length": 994.2666666666668,
+        "rate_bpm": 60.345983639533316,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0315,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.9,
+        "g_to": 0.75
+       },
+       "biomarkers": {
+        "mdp": -75.56531775352657,
+        "peak_v": 36.21538217375397,
+        "amplitude": 111.78069992728055,
+        "dvdt_max": 32.84022975777168,
+        "n_beats": 8.0,
+        "apd90": 430.04285714285714,
+        "apd50": 366.54285714285714,
+        "cycle_length": 989.9666666666668,
+        "rate_bpm": 60.608101282871466,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.0322,
+       "currents": [
+        "hERG / IKr",
+        "Ito"
+       ],
+       "keys": [
+        "g_Kr",
+        "g_to"
+       ],
+       "scales": {
+        "g_Kr": 0.9,
+        "g_to": 0.9
+       },
+       "biomarkers": {
+        "mdp": -75.5426535318608,
+        "peak_v": 35.109350664514416,
+        "amplitude": 110.6520041963752,
+        "dvdt_max": 33.04477243110176,
+        "n_beats": 8.0,
+        "apd90": 430.5285714285715,
+        "apd50": 367.7142857142857,
+        "cycle_length": 995.1999999999999,
+        "rate_bpm": 60.28938906752412,
+        "repol_failure": 0.0
+       }
+      },
+      {
+       "score": 0.038,
+       "currents": [
+        "IKs",
+        "Ito"
+       ],
+       "keys": [
+        "g_Ks",
+        "g_to"
+       ],
+       "scales": {
+        "g_Ks": 0.5,
+        "g_to": 1.25
+       },
+       "biomarkers": {
+        "mdp": -75.68243796932406,
+        "peak_v": 33.358560946991396,
+        "amplitude": 109.04099891631546,
+        "dvdt_max": 33.3869300680049,
+        "n_beats": 8.0,
+        "apd90": 425.1000000000001,
+        "apd50": 369.05714285714294,
+        "cycle_length": 999.6,
+        "rate_bpm": 60.024009603841534,
+        "repol_failure": 0.0
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

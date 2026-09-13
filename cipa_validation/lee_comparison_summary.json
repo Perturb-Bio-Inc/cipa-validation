@@ -1,0 +1,37 @@
+{
+ "per_dose": {
+  "0.1x": {
+   "n": 28,
+   "rho": 0.0725,
+   "direction": "11/28",
+   "tied_points": 27
+  },
+  "1x": {
+   "n": 26,
+   "rho": 0.55,
+   "direction": "17/26",
+   "tied_points": 25
+  },
+  "10x": {
+   "n": 17,
+   "rho": 0.8394,
+   "direction": "16/17",
+   "tied_points": 17
+  },
+  "100x": {
+   "n": 4,
+   "rho": 0.9487,
+   "direction": "3/4",
+   "tied_points": 2
+  }
+ },
+ "pooled": {
+  "n": 75,
+  "rho": 0.6744
+ },
+ "per_drug_max_measured": {
+  "n": 28,
+  "rho": 0.7542
+ },
+ "note": "Lee ordinals are coarse bins; model side Fridericia-corrected"
+}

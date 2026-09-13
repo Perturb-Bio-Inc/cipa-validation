@@ -1,0 +1,250 @@
+{
+  "multichannel": {
+    "rho": 0.6714,
+    "rho_beat": 0.6246,
+    "n": 112,
+    "n_beat": 96,
+    "per_dose": {
+      "1": 0.7404,
+      "2": 0.8034,
+      "3": 0.7349,
+      "4": 0.4867
+    },
+    "rho_drug_mean": 0.7182,
+    "rho_drug_max_signed": 0.7667,
+    "direction_measurable": "82/92",
+    "direction_all": "92/112"
+  },
+  "herg_static": {
+    "rho": 0.618,
+    "rho_beat": 0.5438,
+    "n": 112,
+    "n_beat": 94,
+    "per_dose": {
+      "1": 0.69,
+      "2": 0.7398,
+      "3": 0.6652,
+      "4": 0.4136
+    },
+    "rho_drug_mean": 0.6684,
+    "rho_drug_max_signed": 0.7508,
+    "direction_measurable": "72/84",
+    "direction_all": "88/112"
+  },
+  "herg_dynamic": {
+    "rho": 0.5728,
+    "rho_beat": 0.52,
+    "n": 112,
+    "n_beat": 98,
+    "per_dose": {
+      "1": 0.6785,
+      "2": 0.6857,
+      "3": 0.6213,
+      "4": 0.2294
+    },
+    "rho_drug_mean": 0.5233,
+    "rho_drug_max_signed": 0.6237,
+    "direction_measurable": "72/85",
+    "direction_all": "88/112"
+  },
+  "lee_anchored_direction": {
+    "multichannel": {
+      "match": 9,
+      "total": 10,
+      "detail": [
+        {
+          "drug": "quinidine",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "dofetilide",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "ibutilide",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "sotalol",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "droperidol",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "ranolazine",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "nifedipine",
+          "lee": "shorten",
+          "model": "shorten",
+          "agree": true
+        },
+        {
+          "drug": "nitrendipine",
+          "lee": "shorten",
+          "model": "shorten",
+          "agree": true
+        },
+        {
+          "drug": "diltiazem",
+          "lee": "shorten",
+          "model": "shorten",
+          "agree": true
+        },
+        {
+          "drug": "verapamil",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        }
+      ]
+    },
+    "herg_static": {
+      "match": 6,
+      "total": 10,
+      "detail": [
+        {
+          "drug": "quinidine",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "dofetilide",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "ibutilide",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "sotalol",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "droperidol",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "ranolazine",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "nifedipine",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        },
+        {
+          "drug": "nitrendipine",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        },
+        {
+          "drug": "diltiazem",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        },
+        {
+          "drug": "verapamil",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        }
+      ]
+    },
+    "herg_dynamic": {
+      "match": 6,
+      "total": 10,
+      "detail": [
+        {
+          "drug": "quinidine",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "dofetilide",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "ibutilide",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "sotalol",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "droperidol",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "ranolazine",
+          "lee": "prolong",
+          "model": "prolong",
+          "agree": true
+        },
+        {
+          "drug": "nifedipine",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        },
+        {
+          "drug": "nitrendipine",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        },
+        {
+          "drug": "diltiazem",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        },
+        {
+          "drug": "verapamil",
+          "lee": "shorten",
+          "model": "prolong",
+          "agree": false
+        }
+      ]
+    }
+  }
+}

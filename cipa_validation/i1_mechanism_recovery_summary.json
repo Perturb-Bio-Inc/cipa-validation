@@ -1,0 +1,471 @@
+{
+  "question": "mechanism recovery of the inverse ranking against its own forward inputs",
+  "n_compounds": 4,
+  "single_recovery": "4/8",
+  "pair_recovery": "2/8",
+  "per_compound": {
+    "dofetilide": {
+      "sing": {
+        "recover": 2,
+        "total": 2
+      },
+      "pair": {
+        "recover": 0,
+        "total": 2
+      }
+    },
+    "verapamil": {
+      "sing": {
+        "recover": 0,
+        "total": 2
+      },
+      "pair": {
+        "recover": 2,
+        "total": 2
+      }
+    },
+    "ranolazine": {
+      "sing": {
+        "recover": 2,
+        "total": 2
+      },
+      "pair": {
+        "recover": 0,
+        "total": 2
+      }
+    },
+    "astemizole": {
+      "sing": {
+        "recover": 0,
+        "total": 2
+      },
+      "pair": {
+        "recover": 0,
+        "total": 2
+      }
+    }
+  },
+  "ground_truth_n28": [
+    {
+      "drug": "astemizole",
+      "set": "validation",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0001,
+        "g_K1": 0.0,
+        "g_Kr": 0.1273,
+        "g_Ks": 0.0,
+        "g_Na": 0.0007,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "azimilide",
+      "set": "validation",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.025,
+        "g_K1": 0.0,
+        "g_Kr": 0.1368,
+        "g_Ks": 0.0,
+        "g_Na": 0.0049,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "bepridil",
+      "set": "training",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_CaL,g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0529,
+        "g_K1": 0.0,
+        "g_Kr": 0.2105,
+        "g_Ks": 0.0084,
+        "g_Na": 0.0055,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "chlorpromazine",
+      "set": "training",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "-",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0106,
+        "g_K1": 0.0223,
+        "g_Kr": 0.0475,
+        "g_Ks": 0.0,
+        "g_Na": 0.0001,
+        "g_to": 0.0079
+      }
+    },
+    {
+      "drug": "cisapride",
+      "set": "training",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr,g_to",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0015,
+        "g_K1": 0.0085,
+        "g_Kr": 0.1164,
+        "g_Ks": 0.0067,
+        "g_Na": 0.0,
+        "g_to": 0.0617
+      }
+    },
+    {
+      "drug": "clarithromycin",
+      "set": "validation",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0475,
+        "g_K1": 0.0,
+        "g_Kr": 0.0577,
+        "g_Ks": 0.0,
+        "g_Na": 0.0024,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "clozapine",
+      "set": "validation",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0178,
+        "g_K1": 0.0,
+        "g_Kr": 0.0679,
+        "g_Ks": 0.0,
+        "g_Na": 0.0087,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "diltiazem",
+      "set": "training",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "g_CaL,g_to",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.5153,
+        "g_K1": 0.0,
+        "g_Kr": 0.0418,
+        "g_Ks": 0.0,
+        "g_Na": 0.0083,
+        "g_to": 0.053
+      }
+    },
+    {
+      "drug": "disopyramide",
+      "set": "validation",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_CaL,g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0716,
+        "g_K1": 0.0,
+        "g_Kr": 0.0917,
+        "g_Ks": 0.0,
+        "g_Na": 0.0008,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "dofetilide",
+      "set": "training",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_Kr,g_to",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0035,
+        "g_K1": 0.0168,
+        "g_Kr": 0.5497,
+        "g_Ks": 0.0,
+        "g_Na": 0.0093,
+        "g_to": 0.1512
+      }
+    },
+    {
+      "drug": "domperidone",
+      "set": "validation",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_CaL,g_Kr",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.3404,
+        "g_K1": 0.0,
+        "g_Kr": 0.1827,
+        "g_Ks": 0.0,
+        "g_Na": 0.0007,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "droperidol",
+      "set": "validation",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0007,
+        "g_K1": 0.0,
+        "g_Kr": 0.113,
+        "g_Ks": 0.0,
+        "g_Na": 0.0,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "ibutilide",
+      "set": "validation",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0071,
+        "g_K1": 0.0,
+        "g_Kr": 0.8892,
+        "g_Ks": 0.0,
+        "g_Na": 0.0001,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "loratadine",
+      "set": "validation",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "-",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.016,
+        "g_K1": 0.0,
+        "g_Kr": 0.0011,
+        "g_Ks": 0.0,
+        "g_Na": 0.0006,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "metoprolol",
+      "set": "validation",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "g_Kr,g_Na",
+      "dominant": "g_Na",
+      "fracs": {
+        "g_CaL": 0.018,
+        "g_K1": 0.0,
+        "g_Kr": 0.1068,
+        "g_Ks": 0.0,
+        "g_Na": 0.1558,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "mexiletine",
+      "set": "training",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "g_CaL",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.0918,
+        "g_K1": 0.0,
+        "g_Kr": 0.0099,
+        "g_Ks": 0.0,
+        "g_Na": 0.0,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "nifedipine",
+      "set": "validation",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "g_CaL",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.4336,
+        "g_K1": 0.0,
+        "g_Kr": 0.0007,
+        "g_Ks": 0.0,
+        "g_Na": 0.0001,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "nitrendipine",
+      "set": "validation",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "g_CaL",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.2296,
+        "g_K1": 0.0,
+        "g_Kr": 0.0101,
+        "g_Ks": 0.0,
+        "g_Na": 0.0059,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "ondansetron",
+      "set": "training",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0212,
+        "g_K1": 0.0,
+        "g_Kr": 0.0932,
+        "g_Ks": 0.0044,
+        "g_Na": 0.0021,
+        "g_to": 0.0001
+      }
+    },
+    {
+      "drug": "pimozide",
+      "set": "validation",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_CaL",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.0956,
+        "g_K1": 0.0,
+        "g_Kr": 0.0449,
+        "g_Ks": 0.0,
+        "g_Na": 0.0104,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "quinidine",
+      "set": "training",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_CaL,g_Kr,g_Ks,g_Na,g_to",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.1638,
+        "g_K1": 0.0358,
+        "g_Kr": 0.9099,
+        "g_Ks": 0.363,
+        "g_Na": 0.1205,
+        "g_to": 0.4762
+      }
+    },
+    {
+      "drug": "ranolazine",
+      "set": "training",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0,
+        "g_K1": 0.0,
+        "g_Kr": 0.2679,
+        "g_Ks": 0.006,
+        "g_Na": 0.0063,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "risperidone",
+      "set": "validation",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0195,
+        "g_K1": 0.0,
+        "g_Kr": 0.0533,
+        "g_Ks": 0.0,
+        "g_Na": 0.0023,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "sotalol",
+      "set": "training",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0048,
+        "g_K1": 0.0017,
+        "g_Kr": 0.1603,
+        "g_Ks": 0.0013,
+        "g_Na": 0.0032,
+        "g_to": 0.0051
+      }
+    },
+    {
+      "drug": "tamoxifen",
+      "set": "validation",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "-",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0142,
+        "g_K1": 0.0,
+        "g_Kr": 0.0188,
+        "g_Ks": 0.0,
+        "g_Na": 0.0033,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "terfenadine",
+      "set": "training",
+      "tdp_class": "Intermediate",
+      "blocked_gt5pct": "g_Kr,g_to",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.032,
+        "g_K1": 0.0,
+        "g_Kr": 0.2899,
+        "g_Ks": 0.002,
+        "g_Na": 0.0007,
+        "g_to": 0.0541
+      }
+    },
+    {
+      "drug": "vandetanib",
+      "set": "validation",
+      "tdp_class": "High",
+      "blocked_gt5pct": "g_CaL,g_Kr",
+      "dominant": "g_Kr",
+      "fracs": {
+        "g_CaL": 0.0938,
+        "g_K1": 0.0,
+        "g_Kr": 0.5024,
+        "g_Ks": 0.0,
+        "g_Na": 0.0011,
+        "g_to": 0.0
+      }
+    },
+    {
+      "drug": "verapamil",
+      "set": "training",
+      "tdp_class": "Low",
+      "blocked_gt5pct": "g_CaL,g_Kr",
+      "dominant": "g_CaL",
+      "fracs": {
+        "g_CaL": 0.2679,
+        "g_K1": 0.0159,
+        "g_Kr": 0.1192,
+        "g_Ks": 0.0,
+        "g_Na": 0.0,
+        "g_to": 0.0149
+      }
+    }
+  ],
+  "caveat": "self-recovery test: target and ground truth share the CiPA IC50 input family; measures resolving power, not wet accuracy"
+}

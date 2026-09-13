@@ -1,0 +1,26 @@
+{
+  "n_drugs": 28,
+  "n_ead": 27,
+  "n_noead": 1,
+  "baseline_apd90": 413.3142857142856,
+  "baseline_mdp": -75.60163056285252,
+  "severity_ead_spearman_rho": 0.7208538587848933,
+  "p": 1.5119434624135874e-05,
+  "auc_anyead": 0.8148148148148148,
+  "current_binary_collapse": {
+    "n_collapse": 6,
+    "sens": 0.2222222222222222,
+    "spec": 1.0
+  },
+  "youden_operating_point": {
+    "threshold": 37.5707,
+    "sens": 0.8148148148148148,
+    "spec": 1.0,
+    "j": 0.8148148148148149
+  },
+  "spec90_operating_point": {
+    "threshold": 37.5707,
+    "sens": 0.8148148148148148,
+    "spec": 1.0
+  }
+}

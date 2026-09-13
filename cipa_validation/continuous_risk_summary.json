@@ -1,0 +1,17 @@
+{
+  "n": 28,
+  "base_apd90": 413.31,
+  "base_mdp": -75.6,
+  "cuts": {
+    "lo": -0.104378,
+    "hi": 0.349137
+  },
+  "max_repro_diff_vs_committed": 0.0023,
+  "n_interval_brackets_cut": 11,
+  "caveats": [
+    "dose curve is deterministic; uncertainty band is on the peak only",
+    "population is the I6 independent N=10 conductance population, not a fitted posterior",
+    "interval-vs-cut flag says the hard call is fragile where the band crosses a frozen cut",
+    "no new score, no re-fit: continuous layer on the frozen benchmark"
+  ]
+}

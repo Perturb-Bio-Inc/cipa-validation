@@ -1,0 +1,87 @@
+{
+  "baseline": {
+    "scales": {},
+    "result": {
+      "ca_amplitude_mM": 0.0004601542495754427,
+      "ca_diastolic_mM": 6.840620114853356e-05,
+      "ca_peak_mM": 0.0005285604507239762,
+      "n_beats_used": 7,
+      "ca_amplitude_pct_of_baseline": 100.0
+    }
+  },
+  "verapamil_true_pair": {
+    "scales": {
+      "g_Kr": 0.772,
+      "g_CaL": 0.732
+    },
+    "result": {
+      "ca_amplitude_mM": 0.0004076445744465664,
+      "ca_diastolic_mM": 6.234411041413977e-05,
+      "ca_peak_mM": 0.00046998868486070614,
+      "n_beats_used": 6,
+      "ca_amplitude_pct_of_baseline": 88.59
+    }
+  },
+  "verapamil_grid_pair": {
+    "scales": {
+      "g_Kr": 0.75,
+      "g_CaL": 0.75
+    },
+    "result": {
+      "ca_amplitude_mM": 0.0004110225529273936,
+      "ca_diastolic_mM": 6.260247729145554e-05,
+      "ca_peak_mM": 0.00047362503021884905,
+      "n_beats_used": 6,
+      "ca_amplitude_pct_of_baseline": 89.32
+    }
+  },
+  "verapamil_top_single_IK1": {
+    "scales": {
+      "g_K1": 1.1
+    },
+    "result": {
+      "ca_amplitude_mM": 0.00047489591001172177,
+      "ca_diastolic_mM": 6.48983702609333e-05,
+      "ca_peak_mM": 0.0005397942802726551,
+      "n_beats_used": 7,
+      "ca_amplitude_pct_of_baseline": 103.2
+    }
+  },
+  "verapamil_alt_pair_IKr_IK1": {
+    "scales": {
+      "g_Kr": 0.9,
+      "g_K1": 1.1
+    },
+    "result": {
+      "ca_amplitude_mM": 0.00047279354694445587,
+      "ca_diastolic_mM": 6.463140810391328e-05,
+      "ca_peak_mM": 0.0005374249550483692,
+      "n_beats_used": 6,
+      "ca_amplitude_pct_of_baseline": 102.75
+    }
+  },
+  "astemizole_true_IKr": {
+    "scales": {
+      "g_Kr": 0.921
+    },
+    "result": {
+      "ca_amplitude_mM": 0.0004584340221229846,
+      "ca_diastolic_mM": 6.808759752142015e-05,
+      "ca_peak_mM": 0.0005265216196444048,
+      "n_beats_used": 7,
+      "ca_amplitude_pct_of_baseline": 99.63
+    }
+  },
+  "astemizole_top_single_IKs": {
+    "scales": {
+      "g_Ks": 0.5
+    },
+    "result": {
+      "ca_amplitude_mM": 0.00045696543532675467,
+      "ca_diastolic_mM": 6.82125351171186e-05,
+      "ca_peak_mM": 0.0005251779704438733,
+      "n_beats_used": 7,
+      "ca_amplitude_pct_of_baseline": 99.31
+    }
+  }
+}

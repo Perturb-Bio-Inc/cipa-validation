@@ -1,0 +1,9 @@
+compound,mult,truth,ref_single,ref_pair,n,stable_single,stable_pair,collapsed,flip_singles,flip_pairs
+dofetilide,1.0,"[""g_Kr""]","[""g_Kr""]","[""g_Kr"", ""g_Ks""]",10,10,3,0,[],"[""g_Kr,g_CaL"", ""g_Kr,g_to"", ""g_Kr,g_to"", ""g_Kr,g_CaL"", ""g_Kr,g_CaL"", ""g_Kr,g_to"", ""g_Kr,g_CaL""]"
+dofetilide,4.0,"[""g_Kr""]","[""g_Kr""]","[""g_Kr"", ""g_Ks""]",10,6,4,4,[],"[""g_Kr,g_CaL"", ""g_Kr,g_CaL""]"
+verapamil,1.0,"[""g_CaL"", ""g_Kr""]","[""g_K1""]","[""g_Kr"", ""g_CaL""]",10,10,8,0,[],"[""g_Na,g_K1"", ""g_Ks,g_K1""]"
+verapamil,4.0,"[""g_CaL"", ""g_Kr""]","[""g_K1""]","[""g_Kr"", ""g_CaL""]",10,5,4,4,"[""g_Na""]","[""g_Kr,g_K1"", ""g_Na,g_K1""]"
+ranolazine,1.0,"[""g_Kr""]","[""g_Kr""]","[""g_Kr"", ""g_Ks""]",10,10,9,0,[],"[""g_Kr,g_to""]"
+ranolazine,4.0,"[""g_Kr""]","[""g_Kr""]","[""g_Kr"", ""g_Ks""]",10,8,6,2,[],"[""g_Kr,g_to"", ""g_Kr,g_CaL""]"
+astemizole,1.0,[],"[""g_Ks""]","[""g_Ks"", ""g_to""]",10,10,10,0,[],[]
+astemizole,4.0,"[""g_Kr""]","[""g_Ks""]","[""g_Kr"", ""g_Ks""]",10,6,7,0,"[""g_Kr"", ""g_Kr"", ""g_Kr"", ""g_Kr""]","[""g_Ks,g_to"", ""g_Kr,g_to"", ""g_Ks,g_to""]"

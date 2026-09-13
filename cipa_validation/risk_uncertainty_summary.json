@@ -1,0 +1,295 @@
+{
+ "frozen_cuts": [
+  -0.10437832607643911,
+  0.34913723592968904
+ ],
+ "near_band": 0.05,
+ "n_total": 28,
+ "n_correct": 17,
+ "n_miss": 11,
+ "mean_margin_correct": 0.5674,
+ "mean_margin_miss": 0.2636,
+ "n_near_misses": 2,
+ "per_drug": [
+  {
+   "drug": "astemizole",
+   "set": "validation",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.033,
+   "margin": 0.1374,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "azimilide",
+   "set": "validation",
+   "true": "High",
+   "pred": "High",
+   "risk": 0.37,
+   "margin": 0.0209,
+   "near": true,
+   "correct": true
+  },
+  {
+   "drug": "bepridil",
+   "set": "training",
+   "true": "High",
+   "pred": "High",
+   "risk": 2.0,
+   "margin": 1.6509,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "chlorpromazine",
+   "set": "training",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.073,
+   "margin": 0.1774,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "cisapride",
+   "set": "training",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.349,
+   "margin": 0.0001,
+   "near": true,
+   "correct": true
+  },
+  {
+   "drug": "clarithromycin",
+   "set": "validation",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.147,
+   "margin": 0.2021,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "clozapine",
+   "set": "validation",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.062,
+   "margin": 0.1664,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "diltiazem",
+   "set": "training",
+   "true": "Low",
+   "pred": "Low",
+   "risk": -0.104,
+   "margin": 0.0004,
+   "near": true,
+   "correct": true
+  },
+  {
+   "drug": "disopyramide",
+   "set": "validation",
+   "true": "High",
+   "pred": "Intermediate",
+   "risk": 0.203,
+   "margin": 0.1461,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "dofetilide",
+   "set": "training",
+   "true": "High",
+   "pred": "High",
+   "risk": 2.0,
+   "margin": 1.6509,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "domperidone",
+   "set": "validation",
+   "true": "Intermediate",
+   "pred": "High",
+   "risk": 2.0,
+   "margin": 1.6509,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "droperidol",
+   "set": "validation",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.203,
+   "margin": 0.1461,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "ibutilide",
+   "set": "validation",
+   "true": "High",
+   "pred": "High",
+   "risk": 2.0,
+   "margin": 1.6509,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "loratadine",
+   "set": "validation",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": -0.002,
+   "margin": 0.1024,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "metoprolol",
+   "set": "validation",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": 0.137,
+   "margin": 0.2121,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "mexiletine",
+   "set": "training",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": 0.141,
+   "margin": 0.2081,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "nifedipine",
+   "set": "validation",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": -0.087,
+   "margin": 0.0174,
+   "near": true,
+   "correct": false
+  },
+  {
+   "drug": "nitrendipine",
+   "set": "validation",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": -0.037,
+   "margin": 0.0674,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "ondansetron",
+   "set": "training",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.148,
+   "margin": 0.2011,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "pimozide",
+   "set": "validation",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.284,
+   "margin": 0.0651,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "quinidine",
+   "set": "training",
+   "true": "High",
+   "pred": "High",
+   "risk": 2.0,
+   "margin": 1.6509,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "ranolazine",
+   "set": "training",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": 0.314,
+   "margin": 0.0351,
+   "near": true,
+   "correct": false
+  },
+  {
+   "drug": "risperidone",
+   "set": "validation",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.071,
+   "margin": 0.1754,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "sotalol",
+   "set": "training",
+   "true": "High",
+   "pred": "Intermediate",
+   "risk": 0.207,
+   "margin": 0.1421,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "tamoxifen",
+   "set": "validation",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": 0.054,
+   "margin": 0.1584,
+   "near": false,
+   "correct": false
+  },
+  {
+   "drug": "terfenadine",
+   "set": "training",
+   "true": "Intermediate",
+   "pred": "Intermediate",
+   "risk": 0.251,
+   "margin": 0.0981,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "vandetanib",
+   "set": "validation",
+   "true": "High",
+   "pred": "High",
+   "risk": 2.0,
+   "margin": 1.6509,
+   "near": false,
+   "correct": true
+  },
+  {
+   "drug": "verapamil",
+   "set": "training",
+   "true": "Low",
+   "pred": "Intermediate",
+   "risk": 0.19,
+   "margin": 0.1591,
+   "near": false,
+   "correct": false
+  }
+ ]
+}

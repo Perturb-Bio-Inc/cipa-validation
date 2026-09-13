@@ -1,0 +1,24 @@
+Licensing and third-party material
+==================================
+
+1. Code. The analysis and figure scripts in this repository are released under
+   the MIT License (see LICENSE).
+
+2. Manuscript and derived results. The manuscript source and PDF under
+   preprint/, and the derived result files (*.csv, *.json) under
+   cipa_validation/, are released under the Creative Commons Attribution 4.0
+   International License (CC BY 4.0),
+   https://creativecommons.org/licenses/by/4.0/.
+
+3. Model file. ta1_causal_prototype/kernik_2019.cellml is the Kernik et al.
+   (2019) human iPSC-cardiomyocyte model. It is redistributed here so the
+   analysis can be reproduced. All rights remain with the original authors and
+   the terms of the original distribution apply.
+
+4. Measured data are not redistributed. The Blinova et al. (2018) Excel data and
+   the Lee et al. (2025) supplement are third-party files and are not included.
+   See cipa_validation/source_data/README.md for where to obtain them and for
+   the citations.
+
+5. IC50 inputs. The static hERG fit is Li 2017, distributed with the CiPA
+   reference set (FDA/CiPA, GPL-3.0). It is not redistributed here.
