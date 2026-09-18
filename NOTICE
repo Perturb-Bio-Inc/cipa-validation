@@ -7,8 +7,8 @@ Licensing and third-party material
 2. Manuscript and derived results. The manuscript source and PDF under
    preprint/, and the derived result files (*.csv, *.json) under
    cipa_validation/, are released under the Creative Commons Attribution 4.0
-   International License (CC BY 4.0),
-   https://creativecommons.org/licenses/by/4.0/.
+   International License (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/.
+   The license text is in LICENSE-CC-BY-4.0.
 
 3. Model file. ta1_causal_prototype/kernik_2019.cellml is the Kernik et al.
    (2019) human iPSC-cardiomyocyte model. It is redistributed here so the

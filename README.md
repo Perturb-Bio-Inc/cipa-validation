@@ -65,5 +65,12 @@ python make_preprint_figures.py     # writes figures into preprint/figures
 
 ## License
 
-Code is released under the MIT license. The derived result files are released under
-CC BY 4.0. The Kernik-2019 CellML file keeps its upstream license.
+This repository carries two licenses. `NOTICE` states which file falls under which.
+
+| Scope | License | File |
+|---|---|---|
+| Analysis and figure scripts (`*.py`) | MIT | `LICENSE` |
+| Manuscript source and PDF (`preprint/`), derived result files (`*.csv`, `*.json`) | CC BY 4.0 | `LICENSE-CC-BY-4.0` |
+| `ta1_causal_prototype/kernik_2019.cellml` | upstream, not relicensed | Physiome Model Repository e/805 |
+
+Third-party inputs are not redistributed. See `cipa_validation/source_data/README.md`.
