@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Journal submission package. Kept local, not published: the cover letter is
+# addressed to the editor and this repo is public.
+/submission/
+
 # Secrets - never commit
 .env
 .env.*
