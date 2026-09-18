@@ -15,7 +15,7 @@
 \renewcommand{\UrlFont}{\ttfamily}
 \sloppy
 
-\journal{bioRxiv preprint}
+\journal{Journal of Pharmacological and Toxicological Methods}
 
 \begin{document}
 
@@ -63,6 +63,15 @@ iPSC-cardiomyocyte \sep action potential \sep cardiotoxicity \sep validation \se
 \end{keyword}
 
 \end{frontmatter}
+
+\section*{Highlights}
+\begin{itemize}
+\item A multi-channel iPSC-CM model is compared with a hERG-only model.
+\item The hERG-only model scores higher on the three-class CiPA risk label.
+\item The multi-channel model ranks the continuous repolarization response better.
+\item Direction agreement is 89\% against 78\% for hERG-only and a prolong-always rule.
+\item Four negative results are reported: confidence, IKs, INaL, and mechanism recovery.
+\end{itemize}
 
 \section{Introduction}\label{sec:intro}
 
@@ -520,12 +529,25 @@ and mechanism-recovery variants are \path{cipa_validation_harness_iks.py},
 \path{i1_mechanism_recovery.py}. The figures are regenerated from the committed result
 files by \path{make_preprint_figures.py}. A versioned copy of the scripts and the result
 files is available at \texttt{https://github.com/Perturb-Bio-Inc/cipa-validation} (tag
-v1.0.0) and archived at OSF, DOI \texttt{10.17605/OSF.IO/JV4DZ}.
+v1.1.0) and archived at OSF, DOI \texttt{10.17605/OSF.IO/JV4DZ}.
 
 \section*{Declarations}
 \paragraph{Funding} None.
-\paragraph{Competing interests} The author is the sole founder of Perturb Bio, which
-developed the in-silico read evaluated in this paper.
+\paragraph{Declaration of competing interest} The author is the sole founder of
+Perturb Bio, Inc., which developed the in-silico read evaluated in this paper. The
+author declares no other known competing financial interests or personal
+relationships that could have appeared to influence the work reported here.
+\paragraph{CRediT authorship contribution statement} Daniel Reda: Conceptualization,
+Methodology, Software, Validation, Formal analysis, Investigation, Data curation,
+Writing -- original draft, Writing -- review and editing, Visualization.
+\paragraph{Data availability} The analysis scripts and the derived result files are
+available at \texttt{https://github.com/Perturb-Bio-Inc/cipa-validation} (tag v1.1.0)
+and archived at OSF, DOI \texttt{10.17605/OSF.IO/JV4DZ}. The measured datasets are
+cited to Blinova et al.\ (2018) and Lee et al.\ (2025) and are not redistributed here.
+\paragraph{Declaration of generative AI and AI-assisted technologies in the writing
+process} During the preparation of this work the author used large language models to
+assist with drafting and language editing. The author reviewed and edited the content
+and takes full responsibility for the content of the publication.
 
 \begin{thebibliography}{99}
 \bibitem{kernik2019}

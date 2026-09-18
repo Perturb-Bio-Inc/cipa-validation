@@ -1,0 +1,7 @@
+Highlights
+
+- A multi-channel iPSC-CM model is compared with a hERG-only model.
+- The hERG-only model scores higher on the three-class CiPA risk label.
+- The multi-channel model ranks the continuous repolarization response better.
+- Direction agreement is 89% against 78% for hERG-only and a prolong-always rule.
+- Four negative results are reported: confidence, IKs, INaL, and mechanism recovery.
