@@ -171,7 +171,10 @@ image-only tables (Tables S2 to S4), which we did not digitize. Figure~3 gives F
 four $C_{\mathrm{max}}$ ratios ($0.1\times$, $1\times$, $10\times$, $100\times$). We
 digitize the figure into a signed ordinal in $[-4,+4]$ (\path{lee_fig3_extract.py}) and
 rank the model against it. The ordinal is coarse, so we report the tie count at each dose
-and treat the high-dose cells with caution.
+and treat the high-dose cells with caution. Parts of the analysis code were developed with
+large language model assistance (Anthropic Claude and opencode); the author reviewed the
+code and the results, and the figures are regenerated from the committed result files by
+\path{make_preprint_figures.py}.
 
 \section{Results}\label{sec:results}
 
@@ -529,7 +532,7 @@ and mechanism-recovery variants are \path{cipa_validation_harness_iks.py},
 \path{i1_mechanism_recovery.py}. The figures are regenerated from the committed result
 files by \path{make_preprint_figures.py}. A versioned copy of the scripts and the result
 files is available at \texttt{https://github.com/Perturb-Bio-Inc/cipa-validation} (tag
-v1.1.0) and archived at OSF, DOI \texttt{10.17605/OSF.IO/JV4DZ}.
+v1.2.0) and archived at OSF, DOI \texttt{10.17605/OSF.IO/JV4DZ}.
 
 \section*{Declarations}
 \paragraph{Funding} None.
@@ -541,13 +544,15 @@ relationships that could have appeared to influence the work reported here.
 Methodology, Software, Validation, Formal analysis, Investigation, Data curation,
 Writing -- original draft, Writing -- review and editing, Visualization.
 \paragraph{Data availability} The analysis scripts and the derived result files are
-available at \texttt{https://github.com/Perturb-Bio-Inc/cipa-validation} (tag v1.1.0)
+available at \texttt{https://github.com/Perturb-Bio-Inc/cipa-validation} (tag v1.2.0)
 and archived at OSF, DOI \texttt{10.17605/OSF.IO/JV4DZ}. The measured datasets are
 cited to Blinova et al.\ (2018) and Lee et al.\ (2025) and are not redistributed here.
-\paragraph{Declaration of generative AI and AI-assisted technologies in the writing
-process} During the preparation of this work the author used large language models to
-assist with drafting and language editing. The author reviewed and edited the content
-and takes full responsibility for the content of the publication.
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+During the preparation of this work the author used large language model assistants
+(Anthropic Claude and opencode) to draft and edit the manuscript and to develop the
+analysis code. The author reviewed and verified all output, including the numerical
+results and the references, and takes full responsibility for the content of the
+publication.
 
 \begin{thebibliography}{99}
 \bibitem{kernik2019}

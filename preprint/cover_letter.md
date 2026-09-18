@@ -15,7 +15,7 @@ The result is split. On the three-class CiPA risk label the multi-channel model 
 
 This fits the scope of the journal. The work validates a model and defines a failure mode for how it should be used, and it carries the limitations and negative results that a validation study should report. The comparison against the hERG-only model, the full accounting of failures, and the analysis code and derived results are published so the result can be reproduced.
 
-The manuscript is original. It is not under consideration at another journal, and the sole author approved submission. The author is the sole founder of Perturb Bio, Inc., which developed the in-silico read evaluated in the paper. The analysis code and derived results are archived at OSF (DOI 10.17605/OSF.IO/JV4DZ) and on GitHub (tag v1.1.0).
+The manuscript is original. It is not under consideration at another journal, and the sole author approved submission. The author is the sole founder of Perturb Bio, Inc., which developed the in-silico read evaluated in the paper. The analysis code and derived results are archived at OSF (DOI 10.17605/OSF.IO/JV4DZ) and on GitHub (tag v1.2.0).
 
 Thank you for your consideration. I am glad to suggest reviewers or to provide any further material.
 
